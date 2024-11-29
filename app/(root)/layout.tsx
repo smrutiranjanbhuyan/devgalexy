@@ -7,7 +7,7 @@ export default function Layout({
   children: React.ReactNode;
 }>) {
   return (
-   <main className='font-work-sans'>
+   <main className='font-work-sans bg-[#F2E5BF]'>
     <Navbar/>
 
     {children}
